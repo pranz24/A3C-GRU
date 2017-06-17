@@ -5,7 +5,7 @@ This repository includes my implementation of Asynchronous Advantage Actor-Criti
 ## Requirements
 
 - Python 3+
-- Openai Gym 
+- OpenAI Gym 
 - Pytorch
 
 ### A3C GRU
@@ -44,6 +44,7 @@ To run a 50 episode gym evaluation with trained model
 python gym_test.py --env-name PongDeterminisic-v4 --num-episodes 50
 ```
 
-## Project Reference
+## References
 
 - https://github.com/dgriff777/rl_a3c_pytorch
+- https://arxiv.org/pdf/1602.01783.pdf
