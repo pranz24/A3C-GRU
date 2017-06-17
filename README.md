@@ -16,7 +16,7 @@ I implemented an A3C model, using GRU's rather than LSTM's, and trained it on tw
 
 You can use RMSprop and Adam for sharing statistics between the networks.
 
-The Adam optimizer was used for shareing statistics in the saved weights file.
+- Adam optimizer was used for sharing weights in the saved pkl files.
 
 ## Training
 Limit number of worker threads to number of cpu cores available as too many threads (e.g. more than one thread per cpu core available) will actually result in decrease of training speed and effectiveness.
