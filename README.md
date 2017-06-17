@@ -46,4 +46,4 @@ python gym_test.py --env-name PongDeterminisic-v4 --num-episodes 50
 
 ## Project Reference
 
-- https://github.com/ikostrikov/pytorch-a3c
+- https://github.com/dgriff777/rl_a3c_pytorch
