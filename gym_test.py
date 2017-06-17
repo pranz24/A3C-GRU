@@ -34,7 +34,7 @@ for i_episode in range(args.num_episodes):
             if i_episode % args.render_freq == 0:
                 env.render()
         if done:
-            if args.env_name == "PongDeterministic":
+            if args.env_name == "PongDeterministic-v4":
                 model.load_state_dict(torch.load('./Pong-v4/A3C(Pong-1).pkl'))
             else:
                 model.load_state_dict(torch.load('./Breakout-v4/A3C(Breakout-1).pkl'))
