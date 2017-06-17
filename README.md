@@ -8,7 +8,9 @@ This repository includes my implementation of Asynchronous Advantage Actor-Criti
 - OpenAI Gym 
 - Pytorch
 
-### A3C GRU
+## A3C GRU
+![pong](https://user-images.githubusercontent.com/18737539/27256296-286fdc44-53ce-11e7-8445-e14a173af00d.gif)
+![breakout](https://user-images.githubusercontent.com/18737539/27256294-2627d298-53ce-11e7-8dd4-7997ae5386ae.gif)
 
 I implemented an A3C model, using GRU's rather than LSTM's, and trained it on two atari 2600 environments, that are PongDeterministic-v4 and BreakoutDeterministic-v4 provided in the Openai Gym. So far my model currently has completed the game of Pong and has an average score of 329.5 in Breakout. Saved models in Pong-v4 and Breakout-v4 folder. Trained models may not run properly if you have older version gym and v3 atari. To make sure they run properly u need to keep gym version <= 0.9.1 and atari-py version <= 0.1.1.
 
