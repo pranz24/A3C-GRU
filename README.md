@@ -43,7 +43,12 @@ The test.py file will save weights with score more than or equal to 300 while th
 To run a 50 episode gym evaluation with trained model
 
 ```
-python gym_test.py --env-name PongDeterminisic-v4 --num-episodes 50
+python gym_test.py --env-name PongDeterministic-v4 --num-episodes 50
+```
+or
+
+```
+python gym_test.py --env-name BreakoutDeterministic-v4 --num-episodes 50
 ```
 
 ## References
