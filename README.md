@@ -16,7 +16,7 @@ I implemented an A3C model, using GRU's rather than LSTM's, and trained it on tw
 
 You can use RMSprop and Adam for sharing statistics between the networks.
 
-- Adam optimizer was used for sharing weights in the saved pkl files.
+- Adam optimizer was used for sharing weights in the saved .pkl files.
 
 ## Training
 Limit number of worker threads to number of cpu cores available as too many threads (e.g. more than one thread per cpu core available) will actually result in decrease of training speed and effectiveness.
@@ -53,5 +53,5 @@ python gym_test.py --env-name BreakoutDeterministic-v4 --num-episodes 50
 
 ## References
 
-- https://github.com/dgriff777/rl_a3c_pytorch
+- https://github.com/ikostrikov/pytorch-a3c
 - https://arxiv.org/pdf/1602.01783.pdf
