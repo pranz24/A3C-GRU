@@ -10,7 +10,7 @@ def normalized_columns_initializer(weights, std=1.0):
     out *= std / torch.sqrt(out.pow(2).sum(1).expand_as(out))
     return out
 
-#Initializing Weights and Bias Distribution
+#Parameters
 def weights_init(m):
     classname = m.__class__.__name__
     if classname.find('Conv') != -1:
