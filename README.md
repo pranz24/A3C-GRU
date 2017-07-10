@@ -33,9 +33,9 @@ or to train agent in BreakoutDeterministic-v4 environment:
 python main.py --env-name BreakoutDeterministic-v4 --num-processes 4
 ```
 
-Pong will approximately take 40 minutes to finish if 4 worker threads are used.
+Pong will approximately takes 40 minutes to finish if 4 worker threads are used.
 
-Breakout for me took more than 8 hours to reach a score of 300 with 4 workers and less than 5 hours using 8 worker threads.
+Breakout, for me, took more than 10 hours to reach a score of 300 with 4 workers and less than 5 hours using 8 worker threads.
 
 The test.py file will save weights with score more than or equal to 300 while the training will still continue.
 
