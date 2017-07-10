@@ -53,5 +53,6 @@ python gym_test.py --env-name BreakoutDeterministic-v4 --num-episodes 50
 
 ## References
 
-- https://github.com/ikostrikov/pytorch-a3c
 - https://arxiv.org/pdf/1602.01783.pdf
+- https://github.com/ikostrikov/pytorch-a3c
+- https://github.com/dgriff777/rl_a3c_pytorch
